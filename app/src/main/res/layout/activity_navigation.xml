@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.applocker.Navigation"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/lockapps"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/shape2"
+            android:text="Lock Apps" />
+        <Button
+            android:id="@+id/changepin"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignTop="@+id/lockapps"
+            android:background="@drawable/shape1"
+            android:text="Change Pin" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/shutdown"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/shape3"
+        android:text="Exit" />
+
+</LinearLayout>
